@@ -1,3 +1,9 @@
+:root{
+    --base: #ffc600;
+    --spacing: 15px;
+    --blur: 10px;
+}
+
 body {
     background-color:black;
     color: white;
@@ -12,4 +18,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base)
 }
