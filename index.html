@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playing With CSS & JS, 30 Days of Coding</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;900&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <h2>Update CSS Variables with <span class="h1">JS</span></h2>
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Base Color</label>
+        <input type="color" name="base" value="red">
+    </div>
+
+    <img id="dean" src="https://preview.redd.it/b430fjkaqg051.png?width=940&format=png&auto=webp&s=3cfe1752d40f28d50d572f96530fcc88509e9064" alt="Dean Blunt">
 </body>
 </html>
