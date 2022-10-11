@@ -2,6 +2,7 @@
     --base: #ffc600;
     --spacing: 15px;
     --blur: 10px;
+    --rotate: 0deg;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
     padding: var(--spacing);
     background-color: var(--base);
     filter: blur(var(--blur));
+    rotate: var(--rotate);
 }
 
 .hl {
